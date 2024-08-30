@@ -21,9 +21,13 @@ body {
 /* -- header ------ */
 header {
  background-color: var(--background-gray);
- padding: 25px 0;
+ padding: 25px 0 45px 0;
+ position: relative;
+ background-image: url(../img/header/ellipse.png);
+ background-repeat: no-repeat;
+ background-position-y: 222%;
 }
-header .container {
+header .container:nth-child(1) {
  position: relative;
  display: flex;
  justify-content: space-between;
@@ -113,7 +117,7 @@ header .logo {
  top: 28.3%;
  left: 74px;
 }
-.header-info-elemnt:last-child {
+.header-info-elemnt:nth-child(2) {
  bottom: 19%;
  left: -61px;
 }
@@ -147,7 +151,46 @@ header .logo {
  line-height: 7.31px;
  color: #333333;;
 }
-
-
+/* -- haeder -- amount --- */
+.header-amount-item {
+ background: white;
+ border-radius: 10.8px;
+ padding: 8px 11px;
+}
+.header-amount {
+ display: flex;
+ justify-content: space-between;
+ position: absolute;
+ bottom: -50px;
+ left: 0;
+ right: 0;
+ width: 85%;
+ margin: auto;
+}
+.header-amount-item {
+ display: flex;
+ justify-content: start;
+ width: 24%;
+}
+.header-amount-item img {
+ margin-right: 15px;
+}
+.header-amount-item h2 {
+ font-family: var(--secondary-font);
+ font-weight: 800;
+ font-size: 30.24px;
+ line-height: 36.86px;
+ color: var(--blue);
+}
+.header-amount-item p {
+ font-weight: 600;
+ font-size: 10.08px;
+ line-height: 11.83px;
+ color: #333333;
+}
+.header-amount-item-text_cont {
+ display: flex;
+ align-items: center;
+}
 
 

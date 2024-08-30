@@ -1,0 +1,117 @@
+:root {
+ --background-white: #FFFFFF;
+ --background-gray: #F2F2F2;
+ --blue: #1E90FF;
+ --primary-font: 'Raleway';
+ --secondary-font: 'Montserrat';
+}
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: var(--primary-font);
+}
+.container {
+ width: 85%;
+ margin: auto;
+}
+body {
+ background-color: var(--background-gray);
+}
+/* -- header ------ */
+header {
+ background-color: var(--background-gray);
+ padding: 25px 0;
+}
+header .container {
+ position: relative;
+ display: flex;
+ justify-content: space-between;
+}
+header .logo {
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+.header-statistic {
+ width: 45%;
+ display: flex;
+ align-items: center;
+}
+.header-statistic-title {
+ font-size: 50px;
+ position: relative;
+ line-height: 67.55px;
+}
+.header-statistic-title span {
+ display: inline-block;
+ background: var(--blue);
+ padding: 12px 22px;
+ font-size: 17px;
+ color: white;
+ position: absolute;
+ left: 38%;
+ border-radius: 29.52px;
+ line-height: 18px;
+}
+.header-statistic-text {
+ margin-top: 25px;
+ font-weight: 500;
+ font-size: 16.04px;
+ line-height: 29.08px;
+}
+.header-img-cont, .header-text-cont {
+ padding: 20px 10px 10px 10px;
+ background: white;
+ width: fit-content;
+ margin-bottom: 20px;
+ border-radius: 15px;
+}
+.header-img-blur {
+ filter: blur(2px);
+}
+.header-text-img-cont {
+ position: relative;
+}
+.header-text-img-cont .text-cont {
+ position: absolute;
+ align-items: center;
+ top: 0;
+ display: flex;
+ bottom: 0;
+ text-align: center;
+ width: 100%;
+}
+.header-text-img-cont .text-cont div {
+ width: 100%;
+ text-align: center;
+}
+.header-text-img-cont .text-cont h2 {
+ color: #151515;
+ font-size: 23.16px;
+ line-height: 28.24px;
+ font-family: var(--secondary-font);
+}
+.header-text-img-cont .text-cont p {
+ font-size: 6px;
+ line-height: 6.19px;
+ font-weight: 700;
+ font-family: var(--secondary-font);
+ margin-top: 2px;
+}
+.header-iamges {
+ display: flex;
+ justify-content: start;
+ align-items: center;
+}
+.header-iamges-1-line {
+ margin-right: 20px;
+}
+
+
+
+
+
+
+
+

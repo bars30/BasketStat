@@ -66,6 +66,7 @@ header .logo {
  width: fit-content;
  margin-bottom: 20px;
  border-radius: 15px;
+ position: relative;
 }
 .header-img-blur {
  filter: blur(2px);
@@ -103,14 +104,49 @@ header .logo {
  display: flex;
  justify-content: start;
  align-items: center;
+ position: relative;
 }
 .header-iamges-1-line {
  margin-right: 20px;
 }
-
-
-
-
+.header-info-elemnt:first-child {
+ top: 28.3%;
+ left: 74px;
+}
+.header-info-elemnt:last-child {
+ bottom: 19%;
+ left: -61px;
+}
+.header-info-elemnt {
+ position: absolute;
+ background: #ffffff;
+ z-index: 15;
+ display: flex;
+ border-radius: 15px;
+ padding: 6px 9px 6px 6px;
+}
+.header-info-elemnt h2 {
+ font-family: var(--secondary-font);
+ font-weight: 600;
+ font-size: 8px;
+ line-height: 9.75px;
+ color: var(--blue);
+ margin-bottom: 3.8px;
+}
+.header-info-elemnt_tect-cont {
+ display: flex;
+ align-items: center;
+}
+.header-info-elemnt img {
+ margin-right: 8px;
+}
+.header-info-elemnt p {
+ font-family: var(--secondary-font);
+ font-weight: 500;
+ font-size: 6px;
+ line-height: 7.31px;
+ color: #333333;;
+}
 
 
 

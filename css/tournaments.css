@@ -1,0 +1,148 @@
+.tournaments {
+ padding: 110px 0 25px;
+ background-color: var(--background-white);
+ border-top-right-radius: 25px;
+ border-top-left-radius: 25px;
+ border-bottom-right-radius: 25px;
+ border-bottom-left-radius: 25px;
+ overflow-x: hidden;
+}
+.tournments-slider-track {
+ transition: transform 0.5s ease-in-out;
+}
+.tournments-slider {
+ display: flex;
+ justify-content: flex-start;
+ width: 112%;
+ margin-left: 7.5%;
+ 
+}
+.tournaments-title {
+ font-family: var(--secondary-font);
+ font-size: 36.41px;
+ line-height: 44.38px;
+ font-weight: 700;
+ color:  #333333;
+ margin-bottom: 45px;
+}
+.tournaments-title span {
+ color: var(--blue);
+}
+.tournments-slider-item {
+ padding: 20px;
+ background: white;
+ box-shadow: 0 4px 50px #0000001A;
+ width: 32%;
+ border-radius: 15px;
+ height: 150px;
+ position: relative;
+ margin-right: 35px;
+}
+.tournments-slider-item-title {
+ color: var(--blue);
+ font-family: var(--secondary-font);
+ font-size: 16px;
+ line-height: 19.5px;
+ margin-bottom: 15px;
+}
+.tournments-slider-item-text {
+ color: #151515;
+ font-weight: 500;
+ font-size: 13px;
+ line-height: 15.26px;
+padding: 15px 0;
+}
+.tournments-slider-item-back_img {
+ position: absolute;
+ top: 2px;
+ right: 0;
+ height: 93%;
+ bottom: 2px;
+}
+.tournments-slider-item-statistic {
+ position: absolute;
+ background: white;
+ bottom: -28px;
+ left: 0;
+ display: flex;
+ padding: 8px 12px;
+ width: 46%;
+ box-shadow: 0 4px 10px #0000001C;
+ border-radius: 15px;
+}
+.tournments-slider-item-statistic_cont {
+ display: flex;
+ justify-content: space-between;
+ position: relative;
+ width: 100%;
+}
+.tournments-slider-item-statistic_cont .detailed-statistics {
+ font-weight: 600;
+ font-size: 7.91px;
+ line-height: 8.13px;
+ background-color: var(--blue);
+ color: white;
+ padding: 8px 15px;
+ border-radius: 15px;
+ border: none;
+}
+.tournments-slider-item-statistic_cont .detailed-statistics-cont {
+ position: absolute;
+ bottom: -25px;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ width: 100%;
+}
+.tournments-slider-item-statistic img {
+ display: block;
+}
+.tournments-slider-item-statistic_data h4 {
+ color: #333333;
+ font-family: var(--secondary-font);
+ font-size: 6px;
+ line-height: 7.31px;
+ margin-bottom: 2px;
+ text-align: center;
+}
+.tournments-slider-item-statistic_data h2 {
+ font-family: var(--secondary-font);
+ color: var(--blue);
+ font-size: 15.2px;
+ line-height: 18.53px;
+ font-weight: 600;
+ text-align: center;
+}
+.tournments-slider-item-info_cont {
+ display: flex;
+}
+.tournments-slider-item-info_cont-text h3 {
+ font-family: var(--secondary-font);
+ color: #4B4B4B;
+ font-weight: 600;
+ font-size: 14px;
+ line-height: 17.07px;
+}
+.tournments-slider-item-info_cont-text p {
+ font-weight: 500;
+ font-size: 13px;
+ line-height: 15.26px;
+ color: #151515;
+}
+.tournments-slider-item-info_cont img {
+ margin-right: 15px;
+ display: block;
+}
+.tournments-slider-buttons {
+ padding: 62px 0 15px;
+ width: 85%;
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+}
+.tournments-slider-buttons button {
+ border-radius: 50%;
+ border: none;
+ background: white;
+}
+

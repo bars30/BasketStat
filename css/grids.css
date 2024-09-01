@@ -1,0 +1,55 @@
+.grids {
+ padding: 62px 0 25px 0;
+ background-image: url(../img/grids/ellipse2.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.grids-title {
+ font-family: var(--secondary-font);
+ font-weight: 700;
+ font-size: 36.41px;
+ line-height: 44.38px;
+ margin-bottom: 35px;
+}
+.grids-title span {
+ color: var(--blue);
+}
+.grids_img-cont {
+ position: relative;
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 50px;
+}
+.grids_img-cont_top {
+ position: absolute;
+ left: 0;
+ right: 0;
+ width: fit-content;
+ margin: auto;
+ top: -42px;
+}
+.grids_button-cont {
+ display: flex;
+ justify-content: space-between;
+}
+.grids_button-cont button {
+ display: block;
+ background-color: white;
+ box-shadow: 0 4px 50px #0000001A;
+ color: var(--blue);
+ font-family: var(--secondary-font);
+ font-weight: 700;
+ font-size: 20px;
+ line-height: 30.7px;
+ padding: 15px 25px;
+ border-radius: 15px;
+ border: none;
+ width: 29%;
+}
+
+
+
+
+
+
+

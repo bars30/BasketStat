@@ -1,0 +1,44 @@
+.personal-account {
+ background-image: url(../img/personal-account/ellipse.png);
+ background-position: left center;
+ background-repeat: no-repeat;
+ padding: 77px 0;
+}
+
+.personal-account-title {
+ font-family: var(--secondary-font);
+ font-weight: 700;
+ font-size: 36.41px;
+ line-height: 44.38px;
+ margin-bottom: 12px;
+}
+.personal-account-title span {
+ color: var(--blue);
+}
+ul {
+ list-style-image: url('../img/personal-account/001.png');
+ padding-left: 26px;
+}
+ul li:nth-child(1){
+ list-style-image: url('../img/personal-account/002.png');
+}
+ul li {
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 16.44px;
+ color: #151515;
+ margin-bottom: 7px;
+}
+.personal-account .container {
+ display: flex;
+ justify-content: space-between;
+}
+.personal-account-text {
+ display: flex;
+ align-items: center;
+}
+
+
+
+
+
